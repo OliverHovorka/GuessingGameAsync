@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tries"
+        android:layout_width="384dp"
+        android:layout_height="41dp"
+        android:text="Code:"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="0"
+        android:textSize="100sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnnr1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="146dp"
+                android:layout_y="139dp"
+                android:text="1"
+                tools:layout_editor_absoluteX="150dp"
+                tools:layout_editor_absoluteY="137dp" />
+
+            <Button
+                android:id="@+id/btnnr2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="56dp"
+                android:layout_y="139dp"
+                android:text="2"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="132dp" />
+
+            <Button
+                android:id="@+id/btnnr3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="235dp"
+                android:layout_y="138dp"
+                android:text="3"
+                tools:layout_editor_absoluteX="242dp"
+                tools:layout_editor_absoluteY="137dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnnr4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="236dp"
+                android:layout_y="184dp"
+                android:text="4"
+                tools:layout_editor_absoluteX="234dp"
+                tools:layout_editor_absoluteY="185dp" />
+
+            <Button
+                android:id="@+id/btnnr5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_x="146dp"
+                android:layout_y="185dp"
+                android:text="5"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="186dp" />
+
+            <Button
+                android:id="@+id/btnnr6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="57dp"
+                android:layout_y="184dp"
+                android:text="6"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="38dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnnr7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="145dp"
+                android:layout_y="231dp"
+                android:text="7"
+                tools:layout_editor_absoluteX="146dp"
+                tools:layout_editor_absoluteY="230dp" />
+
+            <Button
+                android:id="@+id/btnnr8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="235dp"
+                android:layout_y="230dp"
+                android:foregroundGravity="center_horizontal"
+                android:text="8"
+                tools:layout_editor_absoluteX="232dp"
+                tools:layout_editor_absoluteY="232dp" />
+
+            <Button
+                android:id="@+id/btnnr9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="57dp"
+                android:layout_y="230dp"
+                android:text="9"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="231dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="145dp"
+                android:layout_y="294dp"
+                android:text="OK"
+                tools:layout_editor_absoluteX="146dp"
+                tools:layout_editor_absoluteY="294dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/lvlCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Level: 0"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Level" />
+
+</LinearLayout>
